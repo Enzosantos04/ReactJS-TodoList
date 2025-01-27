@@ -20,6 +20,8 @@ A simple and user-friendly To-Do List application built with React, TypeScript a
 
 ## ⚙️ Installation
 
+- **Application Link**: https://react-js-todo-list-enzo.vercel.app/
+  
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/react-todo-list.git
