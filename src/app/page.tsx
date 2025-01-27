@@ -48,7 +48,7 @@ export default function App() {
           onChange={(e) => setItemInput(e.target.value)}
         />
         <button
-          className="ml-6 bg-blue-950 px-4 py-2 flex hover:bg-blue-600  font-semibold transform transition-transform hover:scale-105 rounded-md text-center cursor-pointer shadow-zinc-900 shadow-md items-center "
+          className="ml-6 bg-blue-950 px-4 py-2 flex text-white hover:bg-blue-600  font-semibold transform transition-transform hover:scale-105 rounded-md text-center cursor-pointer shadow-zinc-900 shadow-md items-center "
           onClick={addItem}
         >
           Submit
@@ -56,7 +56,9 @@ export default function App() {
       </div>
       <div className=" flex justify-center items-center">
         <div className="h-auto w-80 bg-blue-950 text-center mt-10 rounded-md  shadow-black shadow-md ">
-          <h1 className="text-xl uppercase mt-2 font-semibold">My tasks 📋 </h1>
+          <h1 className="text-xl uppercase mt-2 font-semibold text-white  ">
+            My tasks 📋{" "}
+          </h1>
           <ul className="">
             {list.map((item) => {
               return (
